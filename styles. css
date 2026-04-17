@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f0f8ff;
+    color:#333;
+}
+
+/* PORTADA */
+.portada{
+    height:100vh;
+    background:url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee") no-repeat center/cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.portada h1{
+    font-size:50px;
+}
+
+.portada .btn{
+    margin-top:20px;
+    padding:10px 20px;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+/* MENÚ */
+nav{
+    background:#333;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SECCIONES */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+section img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
